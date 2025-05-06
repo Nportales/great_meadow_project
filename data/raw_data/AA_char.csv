@@ -1,0 +1,126 @@
+﻿Code,Location_ID,Visit_ID,Panel,Date,Year,Visit_Type,limited_RAM,Feature,Type,Flag
+GRME01,218,NA,NA,7/16/2015,2015,VS,1,"Potholes, sink holes or similar depressions not caused by animals",Topographic_Complexity,NA
+GRME01,218,NA,NA,7/16/2015,2015,VS,1,Natural or artificial channels,Topographic_Complexity,NA
+GRME01,218,NA,NA,7/16/2015,2015,VS,1,Plant hummocks or tussocks,Topographic_Complexity,NA
+GRME01,218,NA,NA,7/16/2015,2015,VS,1,"Stream Inflow (creeks, rivers)",Water_Sources,NA
+GRME01,218,NA,NA,7/16/2015,2015,VS,1,"Stream Outflow (creeks, rivers)",Water_Sources,NA
+GRME01,218,NA,NA,7/16/2015,2015,VS,1,"Precipitation (rain, snow)",Water_Sources,NA
+GRME02,223,NA,NA,7/22/2015,2015,VS,1,"Stream Outflow (creeks, rivers)",Water_Sources,NA
+GRME02,223,NA,NA,7/22/2015,2015,VS,1,"Precipitation (rain, snow)",Water_Sources,NA
+GRME02,223,NA,NA,7/22/2015,2015,VS,1,Natural or artificial channels,Topographic_Complexity,NA
+GRME02,223,NA,NA,7/22/2015,2015,VS,1,Plant hummocks or tussocks,Topographic_Complexity,NA
+GRME03,215,NA,NA,7/28/2015,2015,VS,1,"Stream Inflow (creeks, rivers)",Water_Sources,1
+GRME03,215,NA,NA,7/28/2015,2015,VS,1,"Precipitation (rain, snow)",Water_Sources,NA
+GRME03,215,NA,NA,7/28/2015,2015,VS,1,"Natural or artificial debris dispersed across AA (tree limbs, lumber, etc)",Topographic_Complexity,NA
+GRME04,222,NA,NA,7/30/2015,2015,VS,1,"Precipitation (rain, snow)",Water_Sources,NA
+GRME04,222,NA,NA,7/30/2015,2015,VS,1,Natural or artificial levee or berm,Topographic_Complexity,NA
+GRME04,222,NA,NA,7/30/2015,2015,VS,1,"Natural or artificial debris dispersed across AA (tree limbs, lumber, etc)",Topographic_Complexity,NA
+GRME05,219,NA,NA,8/10/2015,2015,VS,1,"Stream Outflow (creeks, rivers)",Water_Sources,NA
+GRME05,219,NA,NA,8/10/2015,2015,VS,1,"Precipitation (rain, snow)",Water_Sources,NA
+GRME05,219,NA,NA,8/10/2015,2015,VS,1,Natural or artificial channels,Topographic_Complexity,NA
+GRME05,219,NA,NA,8/10/2015,2015,VS,1,Plant hummocks or tussocks,Topographic_Complexity,NA
+GRME06,221,NA,NA,8/10/2015,2015,VS,1,"Precipitation (rain, snow)",Water_Sources,NA
+GRME06,221,NA,NA,8/10/2015,2015,VS,1,Natural or artificial channels,Topographic_Complexity,NA
+GRME06,221,NA,NA,8/10/2015,2015,VS,1,"Animal tracks deep enough to hold water (e.g., cattle or elk tracks)",Topographic_Complexity,NA
+GRME07,217,NA,NA,8/14/2015,2015,VS,1,"Precipitation (rain, snow)",Water_Sources,NA
+GRME07,217,NA,NA,8/14/2015,2015,VS,1,"Potholes, sink holes or similar depressions not caused by animals",Topographic_Complexity,NA
+GRME07,217,NA,NA,8/14/2015,2015,VS,1,Natural or artificial channels,Topographic_Complexity,NA
+GRME07,217,NA,NA,8/14/2015,2015,VS,1,Plant hummocks or tussocks,Topographic_Complexity,NA
+GRME08,214,NA,NA,8/14/2015,2015,VS,1,Groundwater,Water_Sources,NA
+GRME08,214,NA,NA,8/14/2015,2015,VS,1,Natural or artificial levee or berm,Topographic_Complexity,NA
+GRME08,214,NA,NA,8/14/2015,2015,VS,1,Natural or artificial channels,Topographic_Complexity,NA
+GRME08,214,NA,NA,8/14/2015,2015,VS,1,Plant hummocks or tussocks,Topographic_Complexity,NA
+GRME09,216,NA,NA,8/14/2015,2015,VS,1,"Precipitation (rain, snow)",Water_Sources,NA
+GRME09,216,NA,NA,8/14/2015,2015,VS,1,Bare ground,Topographic_Complexity,NA
+GRME10,220,NA,NA,8/14/2015,2015,VS,1,"Stream Outflow (creeks, rivers)",Water_Sources,NA
+GRME10,220,NA,NA,8/14/2015,2015,VS,1,"Precipitation (rain, snow)",Water_Sources,NA
+GRME10,220,NA,NA,8/14/2015,2015,VS,1,"Potholes, sink holes or similar depressions not caused by animals",Topographic_Complexity,NA
+GRME10,220,NA,NA,8/14/2015,2015,VS,1,Plant hummocks or tussocks,Topographic_Complexity,NA
+GRME01,218,NA,NA,8/14/2020,2020,VS,1,"Stream Inflow (creeks, rivers)",Water_Sources,NA
+GRME01,218,NA,NA,8/14/2020,2020,VS,1,"Stream Outflow (creeks, rivers)",Water_Sources,NA
+GRME01,218,NA,NA,8/14/2020,2020,VS,1,"Precipitation (rain, snow)",Water_Sources,NA
+GRME01,218,NA,NA,8/14/2020,2020,VS,1,"Potholes, sink holes or similar depressions not caused by animals",Topographic_Complexity,NA
+GRME01,218,NA,NA,8/14/2020,2020,VS,1,Natural or artificial channels,Topographic_Complexity,NA
+GRME01,218,NA,NA,8/14/2020,2020,VS,1,Plant hummocks or tussocks,Topographic_Complexity,NA
+GRME02,223,NA,NA,8/12/2020,2020,VS,1,"Stream Outflow (creeks, rivers)",Water_Sources,NA
+GRME02,223,NA,NA,8/12/2020,2020,VS,1,"Precipitation (rain, snow)",Water_Sources,NA
+GRME02,223,NA,NA,8/12/2020,2020,VS,1,Natural or artificial channels,Topographic_Complexity,NA
+GRME02,223,NA,NA,8/12/2020,2020,VS,1,"Animal tracks deep enough to hold water (e.g., cattle or elk tracks)",Topographic_Complexity,NA
+GRME02,223,NA,NA,8/12/2020,2020,VS,1,Plant hummocks or tussocks,Topographic_Complexity,NA
+GRME03,215,NA,NA,8/14/2020,2020,VS,1,"Stream Inflow (creeks, rivers)",Water_Sources,A
+GRME03,215,NA,NA,8/14/2020,2020,VS,1,"Precipitation (rain, snow)",Water_Sources,NA
+GRME03,215,NA,NA,8/14/2020,2020,VS,1,"Natural or artificial debris dispersed across AA (tree limbs, lumber, etc)",Topographic_Complexity,NA
+GRME04,222,NA,NA,8/14/2020,2020,VS,1,"Precipitation (rain, snow)",Water_Sources,NA
+GRME04,222,NA,NA,8/14/2020,2020,VS,1,Natural or artificial levee or berm,Topographic_Complexity,NA
+GRME04,222,NA,NA,8/14/2020,2020,VS,1,"Natural or artificial debris dispersed across AA (tree limbs, lumber, etc)",Topographic_Complexity,NA
+GRME05,219,NA,NA,8/12/2020,2020,VS,1,"Stream Outflow (creeks, rivers)",Water_Sources,NA
+GRME05,219,NA,NA,8/12/2020,2020,VS,1,"Precipitation (rain, snow)",Water_Sources,NA
+GRME05,219,NA,NA,8/12/2020,2020,VS,1,Natural or artificial channels,Topographic_Complexity,NA
+GRME05,219,NA,NA,8/12/2020,2020,VS,1,Plant hummocks or tussocks,Topographic_Complexity,NA
+GRME06,221,NA,NA,8/14/2020,2020,VS,1,"Stream Outflow (creeks, rivers)",Water_Sources,NA
+GRME06,221,NA,NA,8/14/2020,2020,VS,1,"Precipitation (rain, snow)",Water_Sources,NA
+GRME06,221,NA,NA,8/14/2020,2020,VS,1,"Potholes, sink holes or similar depressions not caused by animals",Topographic_Complexity,NA
+GRME06,221,NA,NA,8/14/2020,2020,VS,1,Natural or artificial channels,Topographic_Complexity,NA
+GRME06,221,NA,NA,8/14/2020,2020,VS,1,"Animal tracks deep enough to hold water (e.g., cattle or elk tracks)",Topographic_Complexity,NA
+GRME07,217,NA,NA,8/14/2020,2020,VS,1,"Precipitation (rain, snow)",Water_Sources,NA
+GRME07,217,NA,NA,8/14/2020,2020,VS,1,"Potholes, sink holes or similar depressions not caused by animals",Topographic_Complexity,NA
+GRME07,217,NA,NA,8/14/2020,2020,VS,1,Natural or artificial channels,Topographic_Complexity,NA
+GRME07,217,NA,NA,8/14/2020,2020,VS,1,"Animal tracks deep enough to hold water (e.g., cattle or elk tracks)",Topographic_Complexity,NA
+GRME07,217,NA,NA,8/14/2020,2020,VS,1,Plant hummocks or tussocks,Topographic_Complexity,NA
+GRME08,214,NA,NA,8/12/2020,2020,VS,1,Groundwater,Water_Sources,NA
+GRME08,214,NA,NA,8/12/2020,2020,VS,1,Natural or artificial levee or berm,Topographic_Complexity,NA
+GRME08,214,NA,NA,8/12/2020,2020,VS,1,Natural or artificial channels,Topographic_Complexity,NA
+GRME08,214,NA,NA,8/12/2020,2020,VS,1,Plant hummocks or tussocks,Topographic_Complexity,NA
+GRME09,216,NA,NA,8/14/2020,2020,VS,1,"Precipitation (rain, snow)",Water_Sources,NA
+GRME09,216,NA,NA,8/14/2020,2020,VS,1,Bare ground,Topographic_Complexity,NA
+GRME10,220,NA,NA,8/12/2020,2020,VS,1,"Stream Outflow (creeks, rivers)",Water_Sources,NA
+GRME10,220,NA,NA,8/12/2020,2020,VS,1,"Precipitation (rain, snow)",Water_Sources,NA
+GRME10,220,NA,NA,8/12/2020,2020,VS,1,"Potholes, sink holes or similar depressions not caused by animals",Topographic_Complexity,NA
+GRME10,220,NA,NA,8/12/2020,2020,VS,1,Plant hummocks or tussocks,Topographic_Complexity,NA
+GRME01,218,NA,NA,7/27/2023,2023,VS,1,"Stream Inflow (creeks, rivers)",Water_Sources,NA
+GRME01,218,NA,NA,7/27/2023,2023,VS,1,"Stream Outflow (creeks, rivers)",Water_Sources,NA
+GRME01,218,NA,NA,7/27/2023,2023,VS,1,"Precipitation (rain, snow)",Water_Sources,NA
+GRME01,218,NA,NA,7/27/2023,2023,VS,1,"Potholes, sink holes or similar depressions not caused by animals",Topographic_Complexity,NA
+GRME01,218,NA,NA,7/27/2023,2023,VS,1,Natural or artificial channels,Topographic_Complexity,NA
+GRME01,218,NA,NA,7/27/2023,2023,VS,1,"Animal tracks deep enough to hold water (e.g., cattle or elk tracks)",Topographic_Complexity,NA
+GRME01,218,NA,NA,7/27/2023,2023,VS,1,Plant hummocks or tussocks,Topographic_Complexity,NA
+GRME02,223,NA,NA,7/25/2023,2023,VS,1,"Stream Outflow (creeks, rivers)",Water_Sources,NA
+GRME02,223,NA,NA,7/25/2023,2023,VS,1,"Precipitation (rain, snow)",Water_Sources,NA
+GRME02,223,NA,NA,7/25/2023,2023,VS,1,Natural or artificial channels,Topographic_Complexity,NA
+GRME02,223,NA,NA,7/25/2023,2023,VS,1,Plant hummocks or tussocks,Topographic_Complexity,NA
+GRME03,215,NA,NA,7/27/2023,2023,VS,1,"Stream Inflow (creeks, rivers)",Water_Sources,A
+GRME03,215,NA,NA,7/27/2023,2023,VS,1,"Precipitation (rain, snow)",Water_Sources,NA
+GRME03,215,NA,NA,7/27/2023,2023,VS,1,"Animal tracks deep enough to hold water (e.g., cattle or elk tracks)",Topographic_Complexity,NA
+GRME03,215,NA,NA,7/27/2023,2023,VS,1,"Natural or artificial debris dispersed across AA (tree limbs, lumber, etc)",Topographic_Complexity,NA
+GRME03,215,NA,NA,7/27/2023,2023,VS,1,Bare ground,Topographic_Complexity,NA
+GRME04,222,NA,NA,7/27/2023,2023,VS,1,"Precipitation (rain, snow)",Water_Sources,NA
+GRME04,222,NA,NA,7/27/2023,2023,VS,1,Natural or artificial levee or berm,Topographic_Complexity,NA
+GRME04,222,NA,NA,7/27/2023,2023,VS,1,Natural or artificial channels,Topographic_Complexity,NA
+GRME04,222,NA,NA,7/27/2023,2023,VS,1,"Animal tracks deep enough to hold water (e.g., cattle or elk tracks)",Topographic_Complexity,NA
+GRME04,222,NA,NA,7/27/2023,2023,VS,1,"Natural or artificial debris dispersed across AA (tree limbs, lumber, etc)",Topographic_Complexity,NA
+GRME05,219,NA,NA,7/25/2023,2023,VS,1,"Stream Outflow (creeks, rivers)",Water_Sources,NA
+GRME05,219,NA,NA,7/25/2023,2023,VS,1,"Precipitation (rain, snow)",Water_Sources,NA
+GRME05,219,NA,NA,7/25/2023,2023,VS,1,Natural or artificial channels,Topographic_Complexity,NA
+GRME05,219,NA,NA,7/25/2023,2023,VS,1,Plant hummocks or tussocks,Topographic_Complexity,NA
+GRME06,221,NA,NA,7/27/2023,2023,VS,1,"Stream Outflow (creeks, rivers)",Water_Sources,NA
+GRME06,221,NA,NA,7/27/2023,2023,VS,1,"Precipitation (rain, snow)",Water_Sources,NA
+GRME06,221,NA,NA,7/27/2023,2023,VS,1,Natural or artificial channels,Topographic_Complexity,NA
+GRME06,221,NA,NA,7/27/2023,2023,VS,1,"Animal tracks deep enough to hold water (e.g., cattle or elk tracks)",Topographic_Complexity,NA
+GRME06,221,NA,NA,7/27/2023,2023,VS,1,Plant hummocks or tussocks,Topographic_Complexity,NA
+GRME06,221,NA,NA,7/27/2023,2023,VS,1,Bare ground,Topographic_Complexity,NA
+GRME07,217,NA,NA,7/27/2023,2023,VS,1,"Stream Outflow (creeks, rivers)",Water_Sources,NA
+GRME07,217,NA,NA,7/27/2023,2023,VS,1,"Precipitation (rain, snow)",Water_Sources,NA
+GRME07,217,NA,NA,7/27/2023,2023,VS,1,Natural or artificial swales,Topographic_Complexity,NA
+GRME07,217,NA,NA,7/27/2023,2023,VS,1,"Animal tracks deep enough to hold water (e.g., cattle or elk tracks)",Topographic_Complexity,NA
+GRME07,217,NA,NA,7/27/2023,2023,VS,1,Plant hummocks or tussocks,Topographic_Complexity,NA
+GRME08,214,NA,NA,7/25/2023,2023,VS,1,"Stream Outflow (creeks, rivers)",Water_Sources,NA
+GRME08,214,NA,NA,7/25/2023,2023,VS,1,"Precipitation (rain, snow)",Water_Sources,NA
+GRME08,214,NA,NA,7/25/2023,2023,VS,1,Natural or artificial levee or berm,Topographic_Complexity,NA
+GRME08,214,NA,NA,7/25/2023,2023,VS,1,Natural or artificial channels,Topographic_Complexity,NA
+GRME08,214,NA,NA,7/25/2023,2023,VS,1,Plant hummocks or tussocks,Topographic_Complexity,NA
+GRME09,216,NA,NA,7/27/2023,2023,VS,1,"Precipitation (rain, snow)",Water_Sources,NA
+GRME09,216,NA,NA,7/27/2023,2023,VS,1,Bare ground,Topographic_Complexity,NA
+GRME10,220,NA,NA,7/25/2023,2023,VS,1,"Stream Outflow (creeks, rivers)",Water_Sources,NA
+GRME10,220,NA,NA,7/25/2023,2023,VS,1,"Precipitation (rain, snow)",Water_Sources,NA
+GRME10,220,NA,NA,7/25/2023,2023,VS,1,Natural or artificial channels,Topographic_Complexity,NA
+GRME10,220,NA,NA,7/25/2023,2023,VS,1,Plant hummocks or tussocks,Topographic_Complexity,NA

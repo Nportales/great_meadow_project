@@ -1,0 +1,227 @@
+﻿Code,Location_ID,Visit_ID,Panel,Date,Year,Visit_Type,limited_RAM,Location_Level,Stressor_Category,Stressor,Severity_Indiv,Severity_Overall,Flag
+GRME01,218,NA,NA,7/16/2015,2015,VS,1,AA,Hydrological,Animal Trampling,1,1,NA
+GRME01,218,NA,NA,7/16/2015,2015,VS,1,AA,Hydrological,Recent Sedimentation,1,1,NA
+GRME01,218,NA,NA,7/16/2015,2015,VS,1,BZ,Hydrological,Ditches/drains/channelization,1,1,NA
+GRME01,218,NA,NA,7/16/2015,2015,VS,1,BZ,Hydrological,Impervious surface input,1,1,NA
+GRME01,218,NA,NA,7/16/2015,2015,VS,1,BZ,Residential/Urban/Commercial,Parking lot/pavement,1,1,NA
+GRME01,218,NA,NA,7/16/2015,2015,VS,1,BZ,Residential/Urban/Commercial,Lawn/park,1,1,NA
+GRME01,218,NA,NA,7/16/2015,2015,VS,1,BZ,Habitat/Vegetation,Mowing/shrub cutting (brush hogging),1,2,NA
+GRME01,218,NA,NA,7/16/2015,2015,VS,1,BZ,Habitat/Vegetation,Chemical vegetation control (herbicide application),2,2,NA
+GRME01,218,NA,NA,7/16/2015,2015,VS,1,BZ,Habitat/Vegetation,Cover of non-native or invasive species,2,2,NA
+GRME01,218,NA,NA,7/16/2015,2015,VS,1,BZ,Agricultural,Irrigation (irrigated land),1,1,NA
+GRME01,218,NA,NA,7/16/2015,2015,VS,1,AA,Alterations to Hydroperiod,Ditches/channelization within AA,1,1,NA
+GRME01,218,NA,NA,7/16/2015,2015,VS,1,AA,Stressors to Substrate,Dumping of garbage or other debris,1,1,NA
+GRME02,223,NA,NA,7/23/2015,2015,VS,1,BZ,Hydrological,Ditches/drains/channelization,1,1,NA
+GRME02,223,NA,NA,7/23/2015,2015,VS,1,BZ,Hydrological,Dikes/dams/levees/railroad or roadbed,1,1,NA
+GRME02,223,NA,NA,7/23/2015,2015,VS,1,BZ,Residential/Urban/Commercial,Road - 1 or 2 lane paved,1,1,NA
+GRME02,223,NA,NA,7/23/2015,2015,VS,1,BZ,Habitat/Vegetation,Chemical vegetation control (herbicide application),1,1,NA
+GRME02,223,NA,NA,7/23/2015,2015,VS,1,BZ,Habitat/Vegetation,Cover of non-native or invasive species,1,1,NA
+GRME02,223,NA,NA,7/23/2015,2015,VS,1,BZ,Habitat/Vegetation,Trails,1,1,NA
+GRME02,223,NA,NA,7/16/2015,2015,VS,1,AA,Alterations to Hydroperiod,Ditches/channelization within AA,1,1,NA
+GRME03,215,NA,NA,7/28/2015,2015,VS,1,BZ,Hydrological,"Culverts, pipes (point source discharge) in the buffer zone",1,1,NA
+GRME03,215,NA,NA,7/28/2015,2015,VS,1,BZ,Residential/Urban/Commercial,Road - gravel,1,1,NA
+GRME03,215,NA,NA,7/28/2015,2015,VS,1,BZ,Habitat/Vegetation,Chemical vegetation control (herbicide application),1,1,NA
+GRME03,215,NA,NA,7/28/2015,2015,VS,1,BZ,Habitat/Vegetation,Cover of non-native or invasive species,1,1,NA
+GRME03,215,NA,NA,7/28/2015,2015,VS,1,BZ,Habitat/Vegetation,Trails,1,1,NA
+GRME03,215,NA,NA,7/28/2015,2015,VS,1,AA,Alterations to Hydroperiod,Upland plant species encroaching into AA (due to drying of wetland),1,1,NA
+GRME03,215,NA,NA,7/28/2015,2015,VS,1,AA,Stressors to Substrate,Grazing by native ungulates,1,1,NA
+GRME04,222,NA,NA,7/30/2015,2015,VS,1,BZ,Habitat/Vegetation,Chemical vegetation control (herbicide application),1,1,NA
+GRME04,222,NA,NA,7/30/2015,2015,VS,1,BZ,Hydrological,Ditches/drains/channelization,1,1,NA
+GRME04,222,NA,NA,7/30/2015,2015,VS,1,BZ,Habitat/Vegetation,"Soil aubsidence, scour or surface erosion (root exposure)",1,1,NA
+GRME05,219,NA,NA,8/10/2015,2015,VS,1,BZ,Habitat/Vegetation,Chemical vegetation control (herbicide application),1,1,NA
+GRME04,222,NA,NA,7/30/2015,2015,VS,1,BZ,Habitat/Vegetation,Cover of non-native or invasive species,1,1,NA
+GRME04,222,NA,NA,7/30/2015,2015,VS,1,BZ,Habitat/Vegetation,Trails,1,1,NA
+GRME04,222,NA,NA,7/30/2015,2015,VS,1,AA,Alterations to Hydroperiod,Upland plant species encroaching into AA (due to drying of wetland),1,1,NA
+GRME04,222,NA,NA,7/30/2015,2015,VS,1,AA,Stressors to Substrate,Grazing by native ungulates,1,1,NA
+GRME06,221,NA,NA,8/10/2015,2015,VS,1,BZ,Habitat/Vegetation,Chemical vegetation control (herbicide application),3,3,NA
+GRME05,219,NA,NA,8/10/2015,2015,VS,1,BZ,Hydrological,Ditches/drains/channelization,1,1,NA
+GRME07,217,NA,NA,8/14/2015,2015,VS,1,BZ,Habitat/Vegetation,Chemical vegetation control (herbicide application),2,1,NA
+GRME05,219,NA,NA,8/10/2015,2015,VS,1,BZ,Habitat/Vegetation,Other mechanical plant removal,1,1,NA
+GRME05,219,NA,NA,8/10/2015,2015,VS,1,AA,Alterations to Hydroperiod,Ditches/channelization within AA,1,1,NA
+GRME06,221,NA,NA,8/10/2015,2015,VS,1,AA,Hydrological,Animal Trampling,1,1,NA
+GRME06,221,NA,NA,8/10/2015,2015,VS,1,BZ,Hydrological,Ditches/drains/channelization,1,1,NA
+GRME09,216,NA,NA,8/14/2015,2015,VS,1,BZ,Habitat/Vegetation,Chemical vegetation control (herbicide application),3,3,NA
+GRME06,221,NA,NA,8/10/2015,2015,VS,1,BZ,Habitat/Vegetation,Other mechanical plant removal,3,3,NA
+GRME06,221,NA,NA,8/10/2015,2015,VS,1,BZ,Habitat/Vegetation,Trails,1,1,NA
+GRME06,221,NA,NA,8/10/2015,2015,VS,1,BZ,Habitat/Vegetation,Cover of non-native or invasive species,3,3,NA
+GRME06,221,NA,NA,8/10/2015,2015,VS,1,AA,Alterations to Hydroperiod,Ditches/channelization within AA,1,1,NA
+GRME06,221,NA,NA,8/10/2015,2015,VS,1,AA,Alterations to Hydroperiod,Upland plant species encroaching into AA (due to drying of wetland),1,1,NA
+GRME07,217,NA,NA,8/14/2015,2015,VS,1,AA,Hydrological,Berms,3,3,A
+GRME07,217,NA,NA,8/14/2015,2015,VS,1,AA,Hydrological,Animal Trampling,3,3,B
+GRME07,217,NA,NA,8/14/2015,2015,VS,1,BZ,Hydrological,Ditches/drains/channelization,1,2,NA
+GRME07,217,NA,NA,8/14/2015,2015,VS,1,BZ,Residential/Urban/Commercial,Road - 1 or 2 lane paved,1,1,NA
+GRME07,217,NA,NA,8/14/2015,2015,VS,1,BZ,Residential/Urban/Commercial,Parking lot/pavement,1,1,NA
+GRME07,217,NA,NA,8/14/2015,2015,VS,1,BZ,Habitat/Vegetation,Other mechanical plant removal,2,1,NA
+GRME07,217,NA,NA,8/14/2015,2015,VS,1,AA,Alterations to Hydroperiod,Ditches/channelization within AA,1,1,NA
+GRME08,214,NA,NA,8/14/2015,2015,VS,1,AA,Hydrological,Berms,2,2,NA
+GRME08,214,NA,NA,8/14/2015,2015,VS,1,AA,Hydrological,Railroad Bed,3,3,A
+GRME08,214,NA,NA,8/14/2015,2015,VS,1,AA,Hydrological,Inflowing ditches,1,1,NA
+GRME08,214,NA,NA,8/14/2015,2015,VS,1,AA,Hydrological,Outflowing ditches,1,1,NA
+GRME08,214,NA,NA,8/14/2015,2015,VS,1,BZ,Hydrological,Ditches/drains/channelization,2,1,NA
+GRME08,214,NA,NA,8/14/2015,2015,VS,1,BZ,Hydrological,Dikes/dams/levees/railroad or roadbed,3,1,NA
+GRME08,214,NA,NA,8/14/2015,2015,VS,1,AA,Stressors to Substrate,Dredging or other prominent excavation at AA margin or in AA,3,3,NA
+GRME09,216,NA,NA,8/14/2015,2015,VS,1,BZ,Habitat/Vegetation,Other mechanical plant removal,3,3,NA
+GRME09,216,NA,NA,8/14/2015,2015,VS,1,BZ,Habitat/Vegetation,Cover of non-native or invasive species,3,3,NA
+GRME10,220,NA,NA,8/14/2015,2015,VS,1,BZ,Hydrological,Ditches/drains/channelization,1,1,NA
+GRME10,220,NA,NA,8/14/2015,2015,VS,1,BZ,Hydrological,Dikes/dams/levees/railroad or roadbed,2,1,NA
+GRME03,215,NA,NA,7/28/2015,2015,VS,1,AA,Human Use and/or Management,"Chemical vegetation control (herbicide application, defoliant use)",1,1,NA
+GRME04,222,NA,NA,7/30/2015,2015,VS,1,AA,Human Use and/or Management,"Chemical vegetation control (herbicide application, defoliant use)",2,2,NA
+GRME06,221,NA,NA,8/10/2015,2015,VS,1,AA,Human Use and/or Management,"Chemical vegetation control (herbicide application, defoliant use)",3,3,NA
+GRME07,217,NA,NA,8/14/2015,2015,VS,1,AA,Human Use and/or Management,"Chemical vegetation control (herbicide application, defoliant use)",2,1,NA
+GRME09,216,NA,NA,8/14/2015,2015,VS,1,AA,Human Use and/or Management,"Chemical vegetation control (herbicide application, defoliant use)",3,1,NA
+GRME01,218,NA,NA,8/14/2020,2020,VS,1,BZ,Habitat/Vegetation,Chemical vegetation control (herbicide application),2,2,NA
+GRME02,223,NA,NA,8/12/2020,2020,VS,1,BZ,Habitat/Vegetation,Chemical vegetation control (herbicide application),1,1,NA
+GRME03,215,NA,NA,8/14/2020,2020,VS,1,BZ,Habitat/Vegetation,Chemical vegetation control (herbicide application),1,1,NA
+GRME04,222,NA,NA,8/14/2020,2020,VS,1,BZ,Habitat/Vegetation,Chemical vegetation control (herbicide application),2,1,NA
+GRME06,221,NA,NA,8/14/2020,2020,VS,1,BZ,Habitat/Vegetation,Chemical vegetation control (herbicide application),3,3,NA
+GRME01,218,NA,NA,8/14/2020,2020,VS,1,AA,Hydrological,Animal Trampling,1,1,NA
+GRME01,218,NA,NA,8/14/2020,2020,VS,1,AA,Hydrological,Recent Sedimentation,2,1,NA
+GRME01,218,NA,NA,8/14/2020,2020,VS,1,BZ,Hydrological,Ditches/drains/channelization,1,1,NA
+GRME01,218,NA,NA,8/14/2020,2020,VS,1,BZ,Hydrological,"Culverts, pipes (point source discharge) in the buffer zone",1,1,NA
+GRME01,218,NA,NA,8/14/2020,2020,VS,1,BZ,Hydrological,Impervious surface input,1,1,NA
+GRME01,218,NA,NA,8/14/2020,2020,VS,1,BZ,Residential/Urban/Commercial,Urban/Commercial buildings,1,1,NA
+GRME01,218,NA,NA,8/14/2020,2020,VS,1,BZ,Residential/Urban/Commercial,Parking lot/pavement,1,1,NA
+GRME01,218,NA,NA,8/14/2020,2020,VS,1,BZ,Residential/Urban/Commercial,Lawn/park,1,1,NA
+GRME01,218,NA,NA,8/14/2020,2020,VS,1,BZ,Habitat/Vegetation,Mowing/shrub cutting (brush hogging),1,2,NA
+GRME07,217,NA,NA,8/14/2020,2020,VS,1,BZ,Habitat/Vegetation,Chemical vegetation control (herbicide application),2,1,NA
+GRME01,218,NA,NA,8/14/2020,2020,VS,1,BZ,Habitat/Vegetation,Cover of non-native or invasive species,2,2,NA
+GRME01,218,NA,NA,8/14/2020,2020,VS,1,BZ,Habitat/Vegetation,Trails,2,2,NA
+GRME01,218,NA,NA,8/14/2020,2020,VS,1,BZ,Agricultural,Irrigation (irrigated land),1,1,NA
+GRME01,218,NA,NA,8/14/2020,2020,VS,1,AA,Alterations to Hydroperiod,Ditches/channelization within AA,1,1,NA
+GRME09,216,NA,NA,8/14/2020,2020,VS,1,BZ,Habitat/Vegetation,Chemical vegetation control (herbicide application),3,3,NA
+GRME02,223,NA,NA,8/12/2020,2020,VS,1,BZ,Hydrological,Ditches/drains/channelization,1,1,NA
+GRME02,223,NA,NA,8/12/2020,2020,VS,1,BZ,Hydrological,Dikes/dams/levees/railroad or roadbed,1,1,NA
+GRME02,223,NA,NA,8/12/2020,2020,VS,1,BZ,Hydrological,Impervious surface input,1,1,NA
+GRME02,223,NA,NA,8/12/2020,2020,VS,1,BZ,Residential/Urban/Commercial,Road - 1 or 2 lane paved,1,1,NA
+GRME02,223,NA,NA,8/12/2020,2020,VS,1,BZ,Habitat/Vegetation,Cover of non-native or invasive species,1,1,NA
+GRME02,223,NA,NA,8/12/2020,2020,VS,1,BZ,Habitat/Vegetation,Trails,1,1,NA
+GRME02,223,NA,NA,8/12/2020,2020,VS,1,AA,Alterations to Hydroperiod,Ditches/channelization within AA,1,1,NA
+GRME03,215,NA,NA,8/14/2020,2020,VS,1,BZ,Hydrological,"Culverts, pipes (point source discharge) in the buffer zone",1,1,NA
+GRME03,215,NA,NA,8/14/2020,2020,VS,1,BZ,Residential/Urban/Commercial,Road - gravel,1,1,NA
+GRME03,215,NA,NA,8/14/2020,2020,VS,1,BZ,Habitat/Vegetation,Cover of non-native or invasive species,1,1,NA
+GRME03,215,NA,NA,8/14/2020,2020,VS,1,BZ,Habitat/Vegetation,Trails,1,1,NA
+GRME03,215,NA,NA,8/14/2020,2020,VS,1,AA,Alterations to Hydroperiod,Upland plant species encroaching into AA (due to drying of wetland),1,1,NA
+GRME03,215,NA,NA,8/14/2020,2020,VS,1,AA,Stressors to Substrate,Grazing by native ungulates,1,1,NA
+GRME04,222,NA,NA,8/14/2020,2020,VS,1,BZ,Hydrological,Dikes/dams/levees/railroad or roadbed,1,1,NA
+GRME04,222,NA,NA,8/14/2020,2020,VS,1,BZ,Habitat/Vegetation,"Soil aubsidence, scour or surface erosion (root exposure)",1,1,NA
+GRME04,222,NA,NA,8/14/2020,2020,VS,1,BZ,Habitat/Vegetation,Cover of non-native or invasive species,2,1,NA
+GRME04,222,NA,NA,8/14/2020,2020,VS,1,BZ,Habitat/Vegetation,Trails,2,1,NA
+GRME04,222,NA,NA,8/14/2020,2020,VS,1,AA,Alterations to Hydroperiod,Upland plant species encroaching into AA (due to drying of wetland),1,1,NA
+GRME04,222,NA,NA,8/14/2020,2020,VS,1,AA,Stressors to Substrate,Grazing by native ungulates,1,1,NA
+GRME05,219,NA,NA,8/12/2020,2020,VS,1,BZ,Hydrological,Ditches/drains/channelization,1,1,NA
+GRME05,219,NA,NA,8/12/2020,2020,VS,1,AA,Alterations to Hydroperiod,Ditches/channelization within AA,1,1,NA
+GRME06,221,NA,NA,8/14/2020,2020,VS,1,AA,Hydrological,Animal Trampling,3,3,NA
+GRME06,221,NA,NA,8/14/2020,2020,VS,1,BZ,Hydrological,Ditches/drains/channelization,1,1,NA
+GRME06,221,NA,NA,8/14/2020,2020,VS,1,BZ,Habitat/Vegetation,Cover of non-native or invasive species,3,3,NA
+GRME06,221,NA,NA,8/14/2020,2020,VS,1,BZ,Habitat/Vegetation,Trails,1,1,NA
+GRME06,221,NA,NA,8/14/2020,2020,VS,1,BZ,Habitat/Vegetation,Other mechanical plant removal,3,3,NA
+GRME06,221,NA,NA,8/14/2020,2020,VS,1,AA,Alterations to Hydroperiod,Ditches/channelization within AA,1,1,NA
+GRME07,217,NA,NA,8/14/2020,2020,VS,1,AA,Hydrological,Berms,3,3,A
+GRME07,217,NA,NA,8/14/2020,2020,VS,1,AA,Hydrological,Animal Trampling,3,3,B
+GRME07,217,NA,NA,8/14/2020,2020,VS,1,BZ,Hydrological,Ditches/drains/channelization,1,2,NA
+GRME07,217,NA,NA,8/14/2020,2020,VS,1,BZ,Residential/Urban/Commercial,Parking lot/pavement,1,1,NA
+GRME07,217,NA,NA,8/14/2020,2020,VS,1,BZ,Residential/Urban/Commercial,Road - 1 or 2 lane paved,1,1,NA
+GRME07,217,NA,NA,8/14/2020,2020,VS,1,BZ,Habitat/Vegetation,Other mechanical plant removal,2,1,NA
+GRME07,217,NA,NA,8/14/2020,2020,VS,1,BZ,Habitat/Vegetation,Cover of non-native or invasive species,1,1,NA
+GRME07,217,NA,NA,8/14/2020,2020,VS,1,AA,Alterations to Hydroperiod,Ditches/channelization within AA,2,2,NA
+GRME07,217,NA,NA,8/14/2020,2020,VS,1,AA,Stressors to Substrate,Grazing by native ungulates,1,1,NA
+GRME08,214,NA,NA,8/12/2020,2020,VS,1,AA,Hydrological,Berms,2,2,NA
+GRME08,214,NA,NA,8/12/2020,2020,VS,1,AA,Hydrological,Railroad Bed,3,3,A
+GRME08,214,NA,NA,8/12/2020,2020,VS,1,AA,Hydrological,Inflowing ditches,1,1,NA
+GRME08,214,NA,NA,8/12/2020,2020,VS,1,AA,Hydrological,Outflowing ditches,1,1,NA
+GRME08,214,NA,NA,8/12/2020,2020,VS,1,BZ,Hydrological,Ditches/drains/channelization,2,1,NA
+GRME08,214,NA,NA,8/12/2020,2020,VS,1,BZ,Hydrological,Dikes/dams/levees/railroad or roadbed,3,1,NA
+GRME08,214,NA,NA,8/12/2020,2020,VS,1,AA,Alterations to Hydroperiod,Ditches/channelization within AA,2,2,NA
+GRME08,214,NA,NA,8/12/2020,2020,VS,1,AA,Stressors to Substrate,Dredging or other prominent excavation at AA margin or in AA,3,3,NA
+GRME08,214,NA,NA,8/12/2020,2020,VS,1,AA,Stressors to Substrate,Grazing by native ungulates,1,1,NA
+GRME09,216,NA,NA,8/14/2020,2020,VS,1,BZ,Habitat/Vegetation,Other mechanical plant removal,3,3,NA
+GRME09,216,NA,NA,8/14/2020,2020,VS,1,BZ,Habitat/Vegetation,Cover of non-native or invasive species,3,3,NA
+GRME01,218,NA,NA,8/14/2020,2020,VS,1,AA,Human Use and/or Management,"Chemical vegetation control (herbicide application, defoliant use)",3,1,NA
+GRME10,220,NA,NA,8/12/2020,2020,VS,1,BZ,Hydrological,Ditches/drains/channelization,1,1,NA
+GRME10,220,NA,NA,8/12/2020,2020,VS,1,BZ,Hydrological,Dikes/dams/levees/railroad or roadbed,2,1,NA
+GRME10,220,NA,NA,8/12/2020,2020,VS,1,AA,Alterations to Hydroperiod,Ditches/channelization within AA,1,1,NA
+GRME03,215,NA,NA,8/14/2020,2020,VS,1,AA,Human Use and/or Management,"Chemical vegetation control (herbicide application, defoliant use)",1,1,NA
+GRME04,222,NA,NA,8/14/2020,2020,VS,1,AA,Human Use and/or Management,"Chemical vegetation control (herbicide application, defoliant use)",2,2,NA
+GRME06,221,NA,NA,8/14/2020,2020,VS,1,AA,Human Use and/or Management,"Chemical vegetation control (herbicide application, defoliant use)",3,1,NA
+GRME07,217,NA,NA,8/14/2020,2020,VS,1,AA,Human Use and/or Management,"Chemical vegetation control (herbicide application, defoliant use)",2,1,NA
+GRME09,216,NA,NA,8/14/2020,2020,VS,1,AA,Human Use and/or Management,"Chemical vegetation control (herbicide application, defoliant use)",3,1,NA
+GRME04,222,NA,NA,8/14/2020,2020,VS,1,AA,Alterations to Hydroperiod,Dikes/dams/levees/berms at AA margin or within AA or roadbed or railroad (acting as block to water flows into or through AA),1,1,NA
+GRME08,214,NA,NA,8/12/2020,2020,VS,1,AA,Alterations to Hydroperiod,Dikes/dams/levees/berms at AA margin or within AA or roadbed or railroad (acting as block to water flows into or through AA),2,2,NA
+GRME01,218,NA,NA,7/27/2023,2023,VS,1,BZ,Habitat/Vegetation,Chemical vegetation control (herbicide application),1,1,NA
+GRME02,223,NA,NA,7/25/2023,2023,VS,1,BZ,Habitat/Vegetation,Chemical vegetation control (herbicide application),1,1,NA
+GRME03,215,NA,NA,7/27/2023,2023,VS,1,BZ,Habitat/Vegetation,Chemical vegetation control (herbicide application),1,1,NA
+GRME04,222,NA,NA,7/27/2023,2023,VS,1,BZ,Habitat/Vegetation,Chemical vegetation control (herbicide application),2,2,NA
+GRME06,221,NA,NA,7/27/2023,2023,VS,1,BZ,Habitat/Vegetation,Chemical vegetation control (herbicide application),2,2,NA
+GRME07,217,NA,NA,7/27/2023,2023,VS,1,BZ,Habitat/Vegetation,Chemical vegetation control (herbicide application),1,1,NA
+GRME09,216,NA,NA,7/27/2023,2023,VS,1,BZ,Habitat/Vegetation,Chemical vegetation control (herbicide application),1,1,NA
+GRME01,218,NA,NA,7/27/2023,2023,VS,1,AA,Hydrological,Animal Trampling,1,1,A
+GRME01,218,NA,NA,7/27/2023,2023,VS,1,AA,Hydrological,Recent Sedimentation,2,2,NA
+GRME01,218,NA,NA,7/27/2023,2023,VS,1,BZ,Hydrological,Ditches/drains/channelization,1,1,NA
+GRME01,218,NA,NA,7/27/2023,2023,VS,1,BZ,Hydrological,Dikes/dams/levees/railroad or roadbed,1,1,NA
+GRME01,218,NA,NA,7/27/2023,2023,VS,1,BZ,Hydrological,"Culverts, pipes (point source discharge) in the buffer zone",1,1,NA
+GRME01,218,NA,NA,7/27/2023,2023,VS,1,BZ,Hydrological,Impervious surface input,1,1,NA
+GRME01,218,NA,NA,7/27/2023,2023,VS,1,BZ,Residential/Urban/Commercial,Urban/Commercial buildings,1,1,NA
+GRME01,218,NA,NA,7/27/2023,2023,VS,1,BZ,Residential/Urban/Commercial,Parking lot/pavement,1,1,NA
+GRME01,218,NA,NA,7/27/2023,2023,VS,1,BZ,Residential/Urban/Commercial,Lawn/park,1,1,NA
+GRME01,218,NA,NA,7/27/2023,2023,VS,1,BZ,Habitat/Vegetation,Mowing/shrub cutting (brush hogging),1,1,NA
+GRME01,218,NA,NA,7/27/2023,2023,VS,1,BZ,Habitat/Vegetation,Cover of non-native or invasive species,1,1,NA
+GRME01,218,NA,NA,7/27/2023,2023,VS,1,BZ,Habitat/Vegetation,Trails,1,1,NA
+GRME01,218,NA,NA,7/27/2023,2023,VS,1,BZ,Agricultural,Irrigation (irrigated land),1,1,NA
+GRME01,218,NA,NA,7/27/2023,2023,VS,1,AA,Alterations to Hydroperiod,Ditches/channelization within AA,1,1,NA
+GRME02,223,NA,NA,7/25/2023,2023,VS,1,BZ,Hydrological,Ditches/drains/channelization,1,1,NA
+GRME02,223,NA,NA,7/25/2023,2023,VS,1,BZ,Hydrological,Dikes/dams/levees/railroad or roadbed,1,1,NA
+GRME02,223,NA,NA,7/25/2023,2023,VS,1,BZ,Hydrological,Fill/spoil banks,1,1,NA
+GRME02,223,NA,NA,7/25/2023,2023,VS,1,BZ,Hydrological,Impervious surface input,1,1,NA
+GRME02,223,NA,NA,7/25/2023,2023,VS,1,BZ,Residential/Urban/Commercial,Road - 1 or 2 lane paved,1,1,NA
+GRME02,223,NA,NA,7/25/2023,2023,VS,1,BZ,Habitat/Vegetation,"Sediment input (construction, erosion, agricultural runoff)",1,1,NA
+GRME02,223,NA,NA,7/25/2023,2023,VS,1,BZ,Habitat/Vegetation,Shrub layer browsed,1,1,NA
+GRME02,223,NA,NA,7/25/2023,2023,VS,1,BZ,Habitat/Vegetation,Cover of non-native or invasive species,1,1,NA
+GRME02,223,NA,NA,7/25/2023,2023,VS,1,BZ,Habitat/Vegetation,Trails,1,1,NA
+GRME02,223,NA,NA,7/25/2023,2023,VS,1,AA,Alterations to Hydroperiod,Ditches/channelization within AA,1,1,NA
+GRME02,223,NA,NA,7/25/2023,2023,VS,1,AA,Stressors to Substrate,Grazing by native ungulates,1,1,NA
+GRME03,215,NA,NA,7/27/2023,2023,VS,1,BZ,Hydrological,"Culverts, pipes (point source discharge) in the buffer zone",1,1,NA
+GRME03,215,NA,NA,7/27/2023,2023,VS,1,BZ,Residential/Urban/Commercial,Road - gravel,1,1,NA
+GRME03,215,NA,NA,7/27/2023,2023,VS,1,BZ,Habitat/Vegetation,Cover of non-native or invasive species,1,1,NA
+GRME03,215,NA,NA,7/27/2023,2023,VS,1,BZ,Habitat/Vegetation,Trails,1,1,NA
+GRME03,215,NA,NA,7/27/2023,2023,VS,1,AA,Stressors to Substrate,Grazing by native ungulates,1,1,NA
+GRME01,218,NA,NA,7/27/2023,2023,VS,1,AA,Human Use and/or Management,"Chemical vegetation control (herbicide application, defoliant use)",1,1,NA
+GRME04,222,NA,NA,7/27/2023,2023,VS,1,BZ,Hydrological,Dikes/dams/levees/railroad or roadbed,1,1,NA
+GRME04,222,NA,NA,7/27/2023,2023,VS,1,BZ,Habitat/Vegetation,Shrub layer browsed,1,1,NA
+GRME02,223,NA,NA,7/25/2023,2023,VS,1,AA,Human Use and/or Management,"Chemical vegetation control (herbicide application, defoliant use)",1,1,NA
+GRME04,222,NA,NA,7/27/2023,2023,VS,1,BZ,Habitat/Vegetation,Cover of non-native or invasive species,1,1,NA
+GRME04,222,NA,NA,7/27/2023,2023,VS,1,BZ,Habitat/Vegetation,Trails,2,2,NA
+GRME03,215,NA,NA,7/27/2023,2023,VS,1,AA,Human Use and/or Management,"Chemical vegetation control (herbicide application, defoliant use)",1,1,NA
+GRME04,222,NA,NA,7/27/2023,2023,VS,1,AA,Stressors to Substrate,Grazing by native ungulates,1,1,NA
+GRME04,222,NA,NA,7/27/2023,2023,VS,1,AA,Human Use and/or Management,"Chemical vegetation control (herbicide application, defoliant use)",2,2,NA
+GRME05,219,NA,NA,7/25/2023,2023,VS,1,BZ,Hydrological,Ditches/drains/channelization,1,1,NA
+GRME05,219,NA,NA,7/25/2023,2023,VS,1,AA,Alterations to Hydroperiod,Ditches/channelization within AA,1,1,NA
+GRME06,221,NA,NA,7/27/2023,2023,VS,1,AA,Hydrological,Animal Trampling,1,1,A
+GRME06,221,NA,NA,7/27/2023,2023,VS,1,BZ,Hydrological,Ditches/drains/channelization,1,1,NA
+GRME06,221,NA,NA,7/27/2023,2023,VS,1,AA,Human Use and/or Management,"Chemical vegetation control (herbicide application, defoliant use)",2,1,NA
+GRME06,221,NA,NA,7/27/2023,2023,VS,1,BZ,Habitat/Vegetation,Cover of non-native or invasive species,1,2,NA
+GRME06,221,NA,NA,7/27/2023,2023,VS,1,BZ,Habitat/Vegetation,Other mechanical plant removal,2,2,NA
+GRME06,221,NA,NA,7/27/2023,2023,VS,1,BZ,Habitat/Vegetation,Trails,1,2,NA
+GRME06,221,NA,NA,7/27/2023,2023,VS,1,AA,Alterations to Hydroperiod,Ditches/channelization within AA,1,1,NA
+GRME06,221,NA,NA,7/27/2023,2023,VS,1,AA,Stressors to Substrate,Grazing by native ungulates,1,1,NA
+GRME07,217,NA,NA,7/27/2023,2023,VS,1,AA,Human Use and/or Management,"Chemical vegetation control (herbicide application, defoliant use)",1,1,NA
+GRME07,217,NA,NA,7/27/2023,2023,VS,1,AA,Hydrological,Berms,2,2,A
+GRME07,217,NA,NA,7/27/2023,2023,VS,1,AA,Hydrological,Animal Trampling,1,1,B
+GRME07,217,NA,NA,7/27/2023,2023,VS,1,BZ,Hydrological,Ditches/drains/channelization,1,2,NA
+GRME07,217,NA,NA,7/27/2023,2023,VS,1,BZ,Residential/Urban/Commercial,Road - 1 or 2 lane paved,1,1,NA
+GRME07,217,NA,NA,7/27/2023,2023,VS,1,BZ,Residential/Urban/Commercial,Parking lot/pavement,1,1,NA
+GRME09,216,NA,NA,7/27/2023,2023,VS,1,AA,Human Use and/or Management,"Chemical vegetation control (herbicide application, defoliant use)",1,1,NA
+GRME07,217,NA,NA,7/27/2023,2023,VS,1,BZ,Habitat/Vegetation,Cover of non-native or invasive species,1,1,NA
+GRME07,217,NA,NA,7/27/2023,2023,VS,1,AA,Alterations to Hydroperiod,Ditches/channelization within AA,1,1,NA
+GRME07,217,NA,NA,7/27/2023,2023,VS,1,AA,Stressors to Substrate,Grazing by native ungulates,1,1,NA
+GRME08,214,NA,NA,7/25/2023,2023,VS,1,AA,Hydrological,Berms,2,2,NA
+GRME08,214,NA,NA,7/25/2023,2023,VS,1,AA,Hydrological,Roads,1,1,A
+GRME08,214,NA,NA,7/25/2023,2023,VS,1,BZ,Hydrological,Ditches/drains/channelization,1,1,NA
+GRME08,214,NA,NA,7/25/2023,2023,VS,1,BZ,Hydrological,Dikes/dams/levees/railroad or roadbed,1,1,NA
+GRME08,214,NA,NA,7/25/2023,2023,VS,1,AA,Alterations to Hydroperiod,Ditches/channelization within AA,1,1,NA
+GRME08,214,NA,NA,7/25/2023,2023,VS,1,AA,Alterations to Hydroperiod,Die-off of trees within AA due to increased ponding (exempting beaver impounded sites),1,1,NA
+GRME09,216,NA,NA,7/27/2023,2023,VS,1,BZ,Habitat/Vegetation,Cover of non-native or invasive species,1,1,NA
+GRME04,222,NA,NA,7/27/2023,2023,VS,1,AA,Alterations to Hydroperiod,Dikes/dams/levees/berms at AA margin or within AA or roadbed or railroad (acting as block to water flows into or through AA),1,1,NA
+GRME10,220,NA,NA,7/25/2023,2023,VS,1,BZ,Hydrological,Ditches/drains/channelization,1,1,NA
+GRME10,220,NA,NA,7/25/2023,2023,VS,1,BZ,Hydrological,Dikes/dams/levees/railroad or roadbed,2,1,NA
+GRME10,220,NA,NA,7/25/2023,2023,VS,1,AA,Alterations to Hydroperiod,Ditches/channelization within AA,1,1,NA
+GRME08,214,NA,NA,7/25/2023,2023,VS,1,AA,Alterations to Hydroperiod,Dikes/dams/levees/berms at AA margin or within AA or roadbed or railroad (acting as block to water flows into or through AA),1,1,NA
