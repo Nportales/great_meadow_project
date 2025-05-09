@@ -27,6 +27,38 @@
 #' }
 #' @export
 
+#---------------------------------------------#
+####        Load Required Packages         ####
+#---------------------------------------------#
+
+library(tidyverse)
+library(dplyr)
+
+#-----------------------#
+####    Read Data    ####
+#-----------------------#
+
+#Reading in CSVs as a tibble
+
+## 2013-2015 Glen Veg data ##
+
+species_by_strata_tlu <- read.csv("data/processed_data/species_by_strata_tlu.csv") %>%
+  as_tibble()
+
+species_list_tlu <- read.csv("data/processed_data/species_list_tlu.csv") %>%
+  as_tibble()
+
+locations <- read.csv("data/raw_data/Glen_2015_2023_veg_data/locations.csv") %>%
+  as_tibble()
+
+visits <- read.csv("data/raw_data/Glen_2015_2023_veg_data/visits.csv") %>%
+  as_tibble()
+
+
+# visits <- visits %>%
+#   mutate(Bryophyte_Cover = replace_na(Bryophyte_Cover, 0))
+
+
 sumVegMMI <- function(site = "all", panel = NA, years = 2013:2023,
                       QAQC = FALSE){
   

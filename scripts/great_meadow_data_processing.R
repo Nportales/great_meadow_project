@@ -15,19 +15,19 @@ library(dplyr)
 
 ## 2013-2015 Glen Veg data ##
 
-species_by_strata <- read.csv("data/raw_data/species_by_strata(2013_2023).csv") %>%
+species_by_strata <- read.csv("data/raw_data/Glen_2015_2023_veg_data/species_by_strata(2015_2023).csv") %>%
   as_tibble()
 
-species_list <- read.csv("data/raw_data/species_list.csv") %>%
+species_list <- read.csv("data/raw_data/Glen_2015_2023_veg_data/species_list.csv") %>%
   as_tibble()
 
-tlu_Plant <- read.csv("data/raw_data/tlu_Plant.csv") %>%
+tlu_Plant <- read.csv("data/raw_data/Glen_2015_2023_veg_data/tlu_Plant.csv") %>%
   as_tibble()
 
-locations <- read.csv("data/raw_data/locations.csv") %>%
+locations <- read.csv("data/raw_data/Glen_2015_2023_veg_data/locations.csv") %>%
   as_tibble()
 
-visits <- read.csv("data/raw_data/visits.csv") %>%
+visits <- read.csv("data/raw_data/Glen_2015_2023_veg_data/visits.csv") %>%
   as_tibble()
 
 
