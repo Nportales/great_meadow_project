@@ -23,6 +23,9 @@ raw1 <- readxl::read_excel("data/raw_data/GREAT MEADOW Full Data & New Graphs No
 raw <- readxl::read_excel("data/raw_data/Precipitation data (GREAT MEADOW Full Data & New Graphs 2023 October).xlsx", sheet = "Full Data to OCT 2023")
 
 
+raw2 <- readxl::read_excel("data/raw_data/GREAT MEADOW Full Data & New Graphs 2024 May.xlsx", sheet = "Full Data to May 2024")
+
+
 ## Pair down the clutter and fix timestamps
 slim1 <- raw1 %>%
   select(-c(1:3, 7:12, 14, 18)) %>%
@@ -38,6 +41,17 @@ slim1 <- raw1 %>%
 ## (2023) Pair down the clutter and fix timestamps
 slim <- raw %>% 
    select(-c(1:3, 7:12, 18)) %>%
+  rename(timestamp = `Date Time, GMT-04:00`, abs.pres = `Abs Pres, kPa (from AirLogger in Great Meadow)`, temp = `Temp, °F (from AirLogger in Great Meadow)`, year = `Year {=TEXT(r37490,"yyyy")}`,
+         precip.cm = `Precip.cm`, daily.precip = `Precip Daily  (Calculated in pivot and vlookup back in on date & 23:00 time)`,
+         data.complete = DataComplete) %>%
+  mutate(timestamp = coalesce(timestamp, `Plot3 Date Time`),
+         date = as.Date(str_extract(timestamp, "^\\d*\\-\\d*\\-\\d\\d"))) %>%
+  select(1, 50, everything()) %>%
+  filter(!is.na(timestamp)) # ensure that you aren't removing data here! Just meant to clean up extra rows
+
+## (2024) Pair down the clutter and fix timestamps
+slim <- raw2 %>% 
+  select(-c(1:3, 7:12, 18)) %>%
   rename(timestamp = `Date Time, GMT-04:00`, abs.pres = `Abs Pres, kPa (from AirLogger in Great Meadow)`, temp = `Temp, °F (from AirLogger in Great Meadow)`, year = `Year {=TEXT(r37490,"yyyy")}`,
          precip.cm = `Precip.cm`, daily.precip = `Precip Daily  (Calculated in pivot and vlookup back in on date & 23:00 time)`,
          data.complete = DataComplete) %>%
@@ -212,8 +226,10 @@ clean <- combined %>%
 
 
 ## Write out the clean data
-write.csv(clean, "data/processed_data/great_meadow_well_data_2023_20250513.csv", row.names = F)
+# write.csv(clean, "data/processed_data/great_meadow_well_data_2023_20250513.csv", row.names = F)
 
+## Write out the clean data
+# write.csv(clean, "data/processed_data/great_meadow_well_data_2024_20250514.csv", row.names = F)
 
 ################  GILMORE MEADOW  ################
 
