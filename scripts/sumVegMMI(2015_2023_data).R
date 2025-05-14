@@ -134,10 +134,10 @@ sumVegMMI <- function(site = "all", panel = NA, years = 2013:2023,
   
 }
 
-result <- sumVegMMI()
+result2 <- sumVegMMI()
 print(result)
 
 # Save outputs as CSV
-# write.csv(result, "data/processed_data/VMMI_2011_2023.csv", row.names = FALSE)
+# write.csv(result, "data/processed_data/VMMI_2015_2023.csv", row.names = FALSE)
 
 
