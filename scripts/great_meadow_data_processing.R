@@ -14,7 +14,7 @@ library(lubridate)
 
 #Reading in CSVs as a tibble
 
-## 2013-2015 Glen Veg data ##
+## 2015-2023 Glen Veg data ##
 
 species_by_strata_2015 <- read.csv("data/raw_data/Glen_veg_data/old_raw_veg_data/species_by_strata_2015_2023.csv") %>%
   as_tibble()

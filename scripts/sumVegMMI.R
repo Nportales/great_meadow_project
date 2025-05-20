@@ -40,7 +40,7 @@ library(dplyr)
 
 #Reading in CSVs as a tibble
 
-## 2013-2015 Glen Veg data ##
+## 2015-2024 Glen Veg data ##
 
 species_by_strata <- read.csv("data/raw_data/Glen_veg_data/species_by_strata_2015_2024.csv") %>%
   as_tibble()
