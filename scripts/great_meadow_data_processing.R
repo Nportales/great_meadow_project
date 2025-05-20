@@ -6,6 +6,7 @@
 
 library(tidyverse)
 library(dplyr)
+library(lubridate)
 
 #-----------------------#
 ####    Read Data    ####
@@ -15,21 +16,47 @@ library(dplyr)
 
 ## 2013-2015 Glen Veg data ##
 
-species_by_strata_2015 <- read.csv("data/raw_data/Glen_veg_data/species_by_strata_2015_2023.csv") %>%
+species_by_strata_2015 <- read.csv("data/raw_data/Glen_veg_data/old_raw_veg_data/species_by_strata_2015_2023.csv") %>%
   as_tibble()
 
-species_list_2015 <- read.csv("data/raw_data/Glen_veg_data/species_list_2015_2023.csv") %>%
+species_list_2015 <- read.csv("data/raw_data/Glen_veg_data/old_raw_veg_data/species_list_2015_2023.csv") %>%
   as_tibble()
 
-tlu_Plant <- read.csv("data/raw_data/Glen_veg_data/tlu_Plant.csv") %>%
+tlu_Plant <- read.csv("data/raw_data/Glen_veg_data/old_raw_veg_data/tlu_Plant.csv") %>%
   as_tibble()
 
-locations_2015 <- read.csv("data/raw_data/Glen_veg_data/locations_2015_2023.csv") %>%
+locations_2015_2023 <- read.csv("data/raw_data/Glen_veg_data/old_raw_veg_data/locations_2015_2023.csv") %>%
   as_tibble()
 
-visits_2015 <- read.csv("data/raw_data/Glen_veg_data/visits_2015_2023.csv") %>%
+visits_2015 <- read.csv("data/raw_data/Glen_veg_data/old_raw_veg_data/visits_2015_2023.csv") %>%
   as_tibble()
 
+vertical_complexity_2015 <- read.csv("data/raw_data/Glen_veg_data/old_raw_veg_data/vertical_complexity_2015_2023.csv") %>%
+  as_tibble()
+
+RAM_stressors_2015 <- read.csv("data/raw_data/Glen_veg_data/old_raw_veg_data/RAM_stressors_2015_2023.csv") %>%
+  as_tibble()
+
+
+## 2024 Glen Veg data ##
+
+species_by_strata_2024 <- read.csv("data/raw_data/Glen_veg_data/old_raw_veg_data/species_by_strata_2024.csv") %>%
+  as_tibble()
+
+species_list_2024 <- read.csv("data/raw_data/Glen_veg_data/old_raw_veg_data/species_list_2024.csv") %>%
+  as_tibble()
+
+locations_2024 <- read.csv("data/raw_data/Glen_veg_data/old_raw_veg_data/locations_2024.csv") %>%
+  as_tibble()
+
+visits_2024 <- read.csv("data/raw_data/Glen_veg_data/old_raw_veg_data/visits_2024.csv") %>%
+  as_tibble()
+
+vertical_complexity_2024 <- read.csv("data/raw_data/Glen_veg_data/old_raw_veg_data/vertical_complexity_2024.csv") %>%
+  as_tibble()
+
+RAM_stressors_2024 <- read.csv("data/raw_data/Glen_veg_data/old_raw_veg_data/RAM_stressors_2024.csv") %>%
+  as_tibble()
 
 #-----------------------#
 ####    Data Manip   ####
@@ -102,6 +129,8 @@ mutate(
 
 
 
+
+
 ## combine tlu_Plant to species_by_strata by common columns---------------------
 
 #first find latin names that are in species_by_strata and not in tlu_Plant
@@ -140,6 +169,87 @@ setdiff(names(species_by_strata_new), names(species_by_strata_tlu))
 
 
 
+
+
+#### combine 2024 data with 2015-2023 data ####---------------------------------
+
+## merge species_by_strata datasets
+species_by_strata_2015_2024 <- bind_rows(species_by_strata_tlu, species_by_strata_2024)
+
+# fix date column format
+species_by_strata_2015_2024$Date <- parse_date_time(species_by_strata_2015_2024$Date, orders = c("ymd", "mdy", "dmy", "Ymd HMS", "mdY", "BdY"))
+species_by_strata_2015_2024$Date <- as.Date(species_by_strata_2015_2024$Date)
+species_by_strata_2015_2024$Date <- format(species_by_strata_2015_2024$Date, "%Y-%m-%d")
+
+
+
+## merge species_list datasets
+# convert collected column to same class = integer
+species_list_tlu$Collected <- as.integer(species_list_tlu$Collected)
+species_list_2024$Collected <- as.integer(species_list_2024$Collected)
+# merge
+species_list_2015_2024 <- bind_rows(species_list_tlu, species_list_2024)
+
+# fix date column format
+species_list_2015_2024$Date <- parse_date_time(species_list_2015_2024$Date, orders = c("ymd", "mdy", "dmy", "Ymd HMS", "mdY", "BdY"))
+species_list_2015_2024$Date <- as.Date(species_list_2015_2024$Date)
+species_list_2015_2024$Date <- format(species_list_2015_2024$Date, "%Y-%m-%d")
+
+
+
+## merge locations datasets
+locations_2015_2024 <- bind_rows(locations_2015_2023, locations_2024)
+
+# fix date column format
+locations_2015_2024$Date_Established <- parse_date_time(locations_2015_2024$Date_Established, orders = c("ymd", "mdy", "dmy", "Ymd HMS", "mdY", "BdY"))
+locations_2015_2024$Date_Established <- as.Date(locations_2015_2024$Date_Established)
+locations_2015_2024$Date_Established <- format(locations_2015_2024$Date_Established, "%Y-%m-%d")
+
+
+
+## merge visits datasets
+# convert visits column to same class = integer
+visits_2015 <- visits_2015 %>%
+  mutate(across(c(Depth_3, DrySeasonWaterTable, FiddlerCrabBurrows, ShallowAquitard), as.integer))
+visits_2024 <- visits_2024 %>%
+  mutate(across(c(Depth_3, DrySeasonWaterTable, FiddlerCrabBurrows, ShallowAquitard), as.integer))
+# merge
+visits_2015_2024 <- bind_rows(visits_2015, visits_2024)
+
+# fix date column format
+visits_2015_2024$Date <- parse_date_time(visits_2015_2024$Date, orders = c("ymd", "mdy", "dmy", "Ymd HMS", "mdY", "BdY"))
+visits_2015_2024$Date <- as.Date(visits_2015_2024$Date)
+visits_2015_2024$Date <- format(visits_2015_2024$Date, "%Y-%m-%d")
+
+
+
+## merge RAM_stressors datasets
+RAM_stressors_2015_2024 <- bind_rows(RAM_stressors_2015, RAM_stressors_2024)
+
+# fix date column format
+RAM_stressors_2015_2024$Date <- parse_date_time(RAM_stressors_2015_2024$Date, orders = c("ymd", "mdy", "dmy", "Ymd HMS", "mdY", "BdY"))
+RAM_stressors_2015_2024$Date <- as.Date(RAM_stressors_2015_2024$Date)
+RAM_stressors_2015_2024$Date <- format(RAM_stressors_2015_2024$Date, "%Y-%m-%d")
+
+
+
+## merge vertical_complexity datasets 
+vertical_complexity_2015_2024 <- bind_rows(vertical_complexity_2015, vertical_complexity_2024)
+
+# fix date column format
+vertical_complexity_2015_2024$Date <- parse_date_time(vertical_complexity_2015_2024$Date, orders = c("ymd", "mdy", "dmy", "Ymd HMS", "mdY", "BdY"))
+vertical_complexity_2015_2024$Date <- as.Date(vertical_complexity_2015_2024$Date)
+vertical_complexity_2015_2024$Date <- format(vertical_complexity_2015_2024$Date, "%Y-%m-%d")
+
+
+
+# Save outputs as CSV
+# write.csv(species_by_strata_2015_2024, "data/raw_data/Glen_veg_data/species_by_strata_2015_2024.csv", row.names = FALSE)
+# write.csv(species_list_2015_2024, "data/raw_data/Glen_veg_data/species_list_2015_2024.csv", row.names = FALSE)
+# write.csv(locations_2015_2024, "data/raw_data/Glen_veg_data/locations_2015_2024.csv", row.names = FALSE)
+# write.csv(visits_2015_2024, "data/raw_data/Glen_veg_data/visits_2015_2024.csv", row.names = FALSE)
+# write.csv(RAM_stressors_2015_2024, "data/raw_data/Glen_veg_data/RAM_stressors_2015_2024.csv", row.names = FALSE)
+# write.csv(vertical_complexity_2015_2024, "data/raw_data/Glen_veg_data/vertical_complexity_2015_2024.csv", row.names = FALSE)
 
 
 

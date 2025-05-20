@@ -20,7 +20,7 @@ VMMI_2024 <- read.csv("data/processed_data/ACAD_Wetland_VegMMI_20241216.csv") %>
   as_tibble()
 
 #-----------------------#
-####    Data Manip   ####
+####    Data Manip   #### 
 #-----------------------#
 
 # Remove one column
