@@ -1,4 +1,4 @@
-"Latin_Name","Common","Label","Longitude","Latitude","Site_Type","Year","PctFreq","Ave_Cov","Invasive"
+"species","common.name","label","longitude","latitude","site.type","year","pct.freq","avg.cov","invasive"
 "Abies balsamea","balsam fir","RAM-29",-68.37987394,44.3424227,"RAM",2019,100,NA,FALSE
 "Abies balsamea","balsam fir","RAM-16",-68.3481271,44.27841031,"RAM",2018,100,NA,FALSE
 "Abies balsamea","balsam fir","RAM-25",-68.34868052,44.28223972,"RAM",2019,50,NA,FALSE

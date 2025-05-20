@@ -1,4 +1,4 @@
-"site_name","local_id","site_type","year","xcoord","ycoord","species","PLANTS","avg_cov","coc","nativity","stress_tol","Notes"
+"site.name","local.id","site.type","year","xcoord","ycoord","species","plant.code","avg.cov","coc","nativity","stress.tol","notes"
 "NWCA11-R303","BIGH","SEN",2011,554269.490012,4898325.52487,"ACER RUBRUM","ACRU",0.02,3,"native",1,"Big Heath"
 "NWCA16-R303","BIGH","SEN",2016,554269.490012,4898325.52487,"ACER RUBRUM","ACRU",0.02,3,"native",1,"Big Heath"
 "NWC21-ME-HP303","BIGH","SEN",2021,554269.490012,4898325.52487,"ACER RUBRUM","ACRU",0.02,3,"native",1,"Big Heath"

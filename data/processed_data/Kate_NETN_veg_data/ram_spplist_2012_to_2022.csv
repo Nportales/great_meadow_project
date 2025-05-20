@@ -1,4 +1,4 @@
-"site_name","local_id","site_type","year","xcoord","ycoord","species","PLANTS","plot_freq","coc","nativity","stress_tol","Notes"
+"site.name","local.id","site.type","year","xcoord","ycoord","species","plant.code","plot.freq","coc","nativity","stress.tol","notes"
 "RAM #01","R-01","RAM",2012,552812.491731,4899852.80191,"Acer rubrum","ACRU",2,2.5,"native",1,"Bass Harbor Marsh #1"
 "RAM #01","R-01","RAM",2012,552812.491731,4899852.80191,"Amelanchier","AMELA",3,4.17,"native",0,"Bass Harbor Marsh #1"
 "RAM #01","R-01","RAM",2012,552812.491731,4899852.80191,"Aronia melanocarpa","ARME6",4,4.5,"native",0,"Bass Harbor Marsh #1"

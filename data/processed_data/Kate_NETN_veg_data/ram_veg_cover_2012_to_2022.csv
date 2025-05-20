@@ -1,4 +1,4 @@
-"site_name","local_id","site_type","year","xcoord","ycoord","species","PLANTS","strata","avg_cov","coc","nativity","stress_tol","Notes"
+"site.name","local.id","site.type","year","xcoord","ycoord","species","plant.code","strata","avg.cov","coc","nativity","stress.tol","notes"
 "RAM #01","R-01","RAM",2012,552812.491731,4899852.80191,"Aronia melanocarpa","ARME6",5,60,4.5,"native",0,"Bass Harbor Marsh #1"
 "RAM #01","R-01","RAM",2012,552812.491731,4899852.80191,"Chamaedaphne calyculata","CHCA2",5,2,5.5,"native",0,"Bass Harbor Marsh #1"
 "RAM #01","R-01","RAM",2012,552812.491731,4899852.80191,"Larix laricina","LALA",5,15,4.5,"native",0,"Bass Harbor Marsh #1"
