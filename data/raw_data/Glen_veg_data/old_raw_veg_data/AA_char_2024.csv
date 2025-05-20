@@ -1,0 +1,68 @@
+"Code","Location_ID","Visit_ID","Panel","Date","Year","Visit_Type","limited_RAM","Feature","Type","Flag"
+"GIME03",224,291,-1,2024-08-12,2024,"VS",1,"Animal tracks deep enough to hold water (e.g., cattle or elk tracks)","Topographic_Complexity",NA
+"GIME03",224,291,-1,2024-08-12,2024,"VS",1,"Natural or artificial channels","Topographic_Complexity",NA
+"GIME03",224,291,-1,2024-08-12,2024,"VS",1,"Plant hummocks or tussocks","Topographic_Complexity",NA
+"GIME03",224,291,-1,2024-08-12,2024,"VS",1,"Groundwater","Water_Sources",NA
+"GIME03",224,291,-1,2024-08-12,2024,"VS",1,"Precipitation (rain, snow)","Water_Sources",NA
+"GIME03",224,291,-1,2024-08-12,2024,"VS",1,"Stream Inflow (creeks, rivers)","Water_Sources",NA
+"GIME07",225,292,-1,2024-08-12,2024,"VS",1,"Animal burrows or spoil piles from burrows (including ant or termite mounds)","Topographic_Complexity",NA
+"GIME07",225,292,-1,2024-08-12,2024,"VS",1,"Natural or artificial channels","Topographic_Complexity",NA
+"GIME07",225,292,-1,2024-08-12,2024,"VS",1,"Natural or artificial debris or wrack along high water lines","Topographic_Complexity",NA
+"GIME07",225,292,-1,2024-08-12,2024,"VS",1,"Plant hummocks or tussocks","Topographic_Complexity",NA
+"GIME07",225,292,-1,2024-08-12,2024,"VS",1,"Groundwater","Water_Sources",NA
+"GIME07",225,292,-1,2024-08-12,2024,"VS",1,"Precipitation (rain, snow)","Water_Sources",NA
+"GIME07",225,292,-1,2024-08-12,2024,"VS",1,"Stream Inflow (creeks, rivers)","Water_Sources",NA
+"GIME07",225,292,-1,2024-08-12,2024,"VS",1,"Stream Outflow (creeks, rivers)","Water_Sources",NA
+"GRME01",218,284,-1,2024-07-22,2024,"VS",1,"Animal tracks deep enough to hold water (e.g., cattle or elk tracks)","Topographic_Complexity",NA
+"GRME01",218,284,-1,2024-07-22,2024,"VS",1,"Natural or artificial channels","Topographic_Complexity",NA
+"GRME01",218,284,-1,2024-07-22,2024,"VS",1,"Plant hummocks or tussocks","Topographic_Complexity",NA
+"GRME01",218,284,-1,2024-07-22,2024,"VS",1,"Groundwater","Water_Sources",NA
+"GRME01",218,284,-1,2024-07-22,2024,"VS",1,"Precipitation (rain, snow)","Water_Sources",NA
+"GRME01",218,284,-1,2024-07-22,2024,"VS",1,"Stream Inflow (creeks, rivers)","Water_Sources",NA
+"GRME02",223,289,-1,2024-07-30,2024,"VS",1,"Animal tracks deep enough to hold water (e.g., cattle or elk tracks)","Topographic_Complexity",NA
+"GRME02",223,289,-1,2024-07-30,2024,"VS",1,"Plant hummocks or tussocks","Topographic_Complexity",NA
+"GRME02",223,289,-1,2024-07-30,2024,"VS",1,"Groundwater","Water_Sources",NA
+"GRME02",223,289,-1,2024-07-30,2024,"VS",1,"Precipitation (rain, snow)","Water_Sources",NA
+"GRME02",223,289,-1,2024-07-30,2024,"VS",1,"Stream Inflow (creeks, rivers)","Water_Sources",NA
+"GRME02",223,289,-1,2024-07-30,2024,"VS",1,"Stream Outflow (creeks, rivers)","Water_Sources",NA
+"GRME03",215,281,-1,2024-07-19,2024,"VS",1,"Bare ground","Topographic_Complexity",NA
+"GRME03",215,281,-1,2024-07-19,2024,"VS",1,"Plant hummocks or tussocks","Topographic_Complexity",NA
+"GRME03",215,281,-1,2024-07-19,2024,"VS",1,"Groundwater","Water_Sources",NA
+"GRME03",215,281,-1,2024-07-19,2024,"VS",1,"Precipitation (rain, snow)","Water_Sources",NA
+"GRME04",222,288,-1,2024-07-24,2024,"VS",1,"Plant hummocks or tussocks","Topographic_Complexity",NA
+"GRME04",222,288,-1,2024-07-24,2024,"VS",1,"Groundwater","Water_Sources",NA
+"GRME04",222,288,-1,2024-07-24,2024,"VS",1,"Precipitation (rain, snow)","Water_Sources",NA
+"GRME05",219,293,-1,2024-08-20,2024,"VS",1,"Animal tracks deep enough to hold water (e.g., cattle or elk tracks)","Topographic_Complexity",NA
+"GRME05",219,293,-1,2024-08-20,2024,"VS",1,"Inorganic sediment mounds not made by animals","Topographic_Complexity",NA
+"GRME05",219,293,-1,2024-08-20,2024,"VS",1,"Natural or artificial channels","Topographic_Complexity",NA
+"GRME05",219,293,-1,2024-08-20,2024,"VS",1,"Natural or artificial debris in topographic low areas","Topographic_Complexity",NA
+"GRME05",219,293,-1,2024-08-20,2024,"VS",1,"Plant hummocks or tussocks","Topographic_Complexity",NA
+"GRME05",219,293,-1,2024-08-20,2024,"VS",1,"Potholes, sink holes or similar depressions not caused by animals","Topographic_Complexity",NA
+"GRME05",219,293,-1,2024-08-20,2024,"VS",1,"Groundwater","Water_Sources",NA
+"GRME05",219,293,-1,2024-08-20,2024,"VS",1,"Precipitation (rain, snow)","Water_Sources",NA
+"GRME05",219,293,-1,2024-08-20,2024,"VS",1,"Stream Inflow (creeks, rivers)","Water_Sources",NA
+"GRME06",221,287,-1,2024-07-24,2024,"VS",1,"Natural or artificial channels","Topographic_Complexity",NA
+"GRME06",221,287,-1,2024-07-24,2024,"VS",1,"Plant hummocks or tussocks","Topographic_Complexity",NA
+"GRME06",221,287,-1,2024-07-24,2024,"VS",1,"Potholes, sink holes or similar depressions not caused by animals","Topographic_Complexity",NA
+"GRME06",221,287,-1,2024-07-24,2024,"VS",1,"Groundwater","Water_Sources",NA
+"GRME06",221,287,-1,2024-07-24,2024,"VS",1,"Precipitation (rain, snow)","Water_Sources",NA
+"GRME07",217,283,-1,2024-07-22,2024,"VS",1,"Natural or artificial channels","Topographic_Complexity",NA
+"GRME07",217,283,-1,2024-07-22,2024,"VS",1,"Plant hummocks or tussocks","Topographic_Complexity",NA
+"GRME07",217,283,-1,2024-07-22,2024,"VS",1,"Potholes, sink holes or similar depressions not caused by animals","Topographic_Complexity",NA
+"GRME07",217,283,-1,2024-07-22,2024,"VS",1,"Groundwater","Water_Sources",NA
+"GRME07",217,283,-1,2024-07-22,2024,"VS",1,"Precipitation (rain, snow)","Water_Sources",NA
+"GRME08",214,280,-1,2024-07-15,2024,"VS",1,"Animal tracks deep enough to hold water (e.g., cattle or elk tracks)","Topographic_Complexity",NA
+"GRME08",214,280,-1,2024-07-15,2024,"VS",1,"Bare ground","Topographic_Complexity",NA
+"GRME08",214,280,-1,2024-07-15,2024,"VS",1,"Natural or artificial channels","Topographic_Complexity",NA
+"GRME08",214,280,-1,2024-07-15,2024,"VS",1,"Plant hummocks or tussocks","Topographic_Complexity",NA
+"GRME08",214,280,-1,2024-07-15,2024,"VS",1,"Groundwater","Water_Sources",NA
+"GRME08",214,280,-1,2024-07-15,2024,"VS",1,"Precipitation (rain, snow)","Water_Sources",NA
+"GRME09",216,282,-1,2024-07-16,2024,"VS",1,"Plant hummocks or tussocks","Topographic_Complexity",NA
+"GRME09",216,282,-1,2024-07-16,2024,"VS",1,"Potholes, sink holes or similar depressions not caused by animals","Topographic_Complexity",NA
+"GRME09",216,282,-1,2024-07-16,2024,"VS",1,"Groundwater","Water_Sources",NA
+"GRME09",216,282,-1,2024-07-16,2024,"VS",1,"Precipitation (rain, snow)","Water_Sources",NA
+"GRME10",220,290,-1,2024-08-08,2024,"VS",1,"Plant hummocks or tussocks","Topographic_Complexity",NA
+"GRME10",220,290,-1,2024-08-08,2024,"VS",1,"Potholes, sink holes or similar depressions not caused by animals","Topographic_Complexity",NA
+"GRME10",220,290,-1,2024-08-08,2024,"VS",1,"Groundwater","Water_Sources",NA
+"GRME10",220,290,-1,2024-08-08,2024,"VS",1,"Precipitation (rain, snow)","Water_Sources",NA
+"GRME10",220,290,-1,2024-08-08,2024,"VS",1,"Stream Inflow (creeks, rivers)","Water_Sources",NA

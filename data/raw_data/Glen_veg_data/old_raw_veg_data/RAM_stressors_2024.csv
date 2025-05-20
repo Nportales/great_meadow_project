@@ -1,0 +1,42 @@
+"Code","Location_ID","Visit_ID","Panel","Date","Year","Visit_Type","limited_RAM","Location_Level","Stressor_Category","Stressor","Severity_Indiv","Severity_Overall","Flag"
+"GRME01",218,284,-1,2024-07-22,2024,"VS",1,"AA","Stressors to Substrate","Grazing by native ungulates",1,1,NA
+"GRME02",223,289,-1,2024-07-30,2024,"VS",1,"AA","Alterations to Hydroperiod","Die-off of trees within AA due to increased ponding (exempting beaver impounded sites)",2,2,NA
+"GRME02",223,289,-1,2024-07-30,2024,"VS",1,"BZ","Habitat/Vegetation","Cover of non-native or invasive species",1,1,NA
+"GRME02",223,289,-1,2024-07-30,2024,"VS",1,"BZ","Hydrological","Moderate to heavy formation of filamentous algae",1,1,NA
+"GRME03",215,281,-1,2024-07-19,2024,"VS",1,"AA","Alterations to Hydroperiod","Upland plant species encroaching into AA (due to drying of wetland)",1,1,NA
+"GRME03",215,281,-1,2024-07-19,2024,"VS",1,"AA","Stressors to Substrate","Grazing by native ungulates",1,1,NA
+"GRME03",215,281,-1,2024-07-19,2024,"VS",1,"BZ","Habitat/Vegetation","Trails",2,2,NA
+"GRME03",215,281,-1,2024-07-19,2024,"VS",1,"BZ","Habitat/Vegetation","Cover of non-native or invasive species",1,2,NA
+"GRME03",215,281,-1,2024-07-19,2024,"VS",1,"BZ","Hydrological","Ditches/drains/channelization",1,2,NA
+"GRME03",215,281,-1,2024-07-19,2024,"VS",1,"BZ","Hydrological","Dikes/dams/levees/railroad or roadbed",2,2,NA
+"GRME04",222,288,-1,2024-07-24,2024,"VS",1,"BZ","Habitat/Vegetation","Other mechanical plant removal",1,1,NA
+"GRME04",222,288,-1,2024-07-24,2024,"VS",1,"BZ","Habitat/Vegetation","Cover of non-native or invasive species",1,1,NA
+"GRME05",219,293,-1,2024-08-20,2024,"VS",1,"AA","Stressors to Substrate","Grazing by native ungulates",1,1,NA
+"GRME05",219,293,-1,2024-08-20,2024,"VS",1,"BZ","Hydrological","Ditches/drains/channelization",1,1,NA
+"GRME05",219,293,-1,2024-08-20,2024,"VS",1,"BZ","Hydrological","Moderate to heavy formation of filamentous algae",1,1,NA
+"GRME06",221,287,-1,2024-07-24,2024,"VS",1,"AA","Human Use and/or Management","Mechanical plant removal besides tree cutting or woody debris removal",1,1,NA
+"GRME06",221,287,-1,2024-07-24,2024,"VS",1,"AA","Hydrological","Animal Trampling",3,3,NA
+"GRME06",221,287,-1,2024-07-24,2024,"VS",1,"AA","Stressors to Substrate","Grazing by native ungulates",1,1,NA
+"GRME06",221,287,-1,2024-07-24,2024,"VS",1,"BZ","Habitat/Vegetation","Other mechanical plant removal",1,1,NA
+"GRME06",221,287,-1,2024-07-24,2024,"VS",1,"BZ","Habitat/Vegetation","Cover of non-native or invasive species",1,1,NA
+"GRME07",217,283,-1,2024-07-22,2024,"VS",1,"AA","Alterations to Hydroperiod","Die-off of trees within AA due to increased ponding (exempting beaver impounded sites)",1,1,NA
+"GRME07",217,283,-1,2024-07-22,2024,"VS",1,"AA","Hydrological","Animal Trampling",3,3,NA
+"GRME07",217,283,-1,2024-07-22,2024,"VS",1,"BZ","Habitat/Vegetation","Cover of non-native or invasive species",1,1,NA
+"GRME07",217,283,-1,2024-07-22,2024,"VS",1,"BZ","Hydrological","Impervious Surface Input",1,1,NA
+"GRME07",217,283,-1,2024-07-22,2024,"VS",1,"BZ","Hydrological","Culverts, pipes (point source discharge) in the buffer zone",1,1,NA
+"GRME07",217,283,-1,2024-07-22,2024,"VS",1,"BZ","Residential/Urban/Commercial","Road - gravel",1,1,NA
+"GRME07",217,283,-1,2024-07-22,2024,"VS",1,"BZ","Residential/Urban/Commercial","Parking lot/pavement",1,1,NA
+"GRME08",214,280,-1,2024-07-15,2024,"VS",1,"AA","Alterations to Hydroperiod","Ditches/channelization within AA",1,1,NA
+"GRME08",214,280,-1,2024-07-15,2024,"VS",1,"AA","Alterations to Hydroperiod","Dikes/dams/levees/berms at AA margin or within AA or roadbed or railroad (acting as block to water flows into or through AA)",1,1,NA
+"GRME08",214,280,-1,2024-07-15,2024,"VS",1,"AA","Alterations to Hydroperiod","Die-off of trees within AA due to increased ponding (exempting beaver impounded sites)",1,1,NA
+"GRME08",214,280,-1,2024-07-15,2024,"VS",1,"AA","Hydrological","Roads",2,3,NA
+"GRME08",214,280,-1,2024-07-15,2024,"VS",1,"AA","Hydrological","Animal Trampling",3,3,NA
+"GRME08",214,280,-1,2024-07-15,2024,"VS",1,"AA","Stressors to Substrate","Grazing by native ungulates",1,1,NA
+"GRME08",214,280,-1,2024-07-15,2024,"VS",1,"BZ","Habitat/Vegetation","Shrub layer browsed",1,1,NA
+"GRME08",214,280,-1,2024-07-15,2024,"VS",1,"BZ","Hydrological","Ditches/drains/channelization",1,1,NA
+"GRME08",214,280,-1,2024-07-15,2024,"VS",1,"BZ","Residential/Urban/Commercial","Road - 1 or 2 lane paved",1,1,NA
+"GRME09",216,282,-1,2024-07-16,2024,"VS",1,"AA","Alterations to Hydroperiod","Upland plant species encroaching into AA (due to drying of wetland)",1,1,NA
+"GRME09",216,282,-1,2024-07-16,2024,"VS",1,"AA","Stressors to Substrate","Grazing by native ungulates",1,1,NA
+"GRME09",216,282,-1,2024-07-16,2024,"VS",1,"BZ","Habitat/Vegetation","Trails",1,1,NA
+"GRME09",216,282,-1,2024-07-16,2024,"VS",1,"BZ","Habitat/Vegetation","Cover of non-native or invasive species",1,1,NA
+"GRME10",220,290,-1,2024-08-08,2024,"VS",1,"BZ","Hydrological","Ditches/drains/channelization",3,3,NA
