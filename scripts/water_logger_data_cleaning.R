@@ -8,8 +8,6 @@ library(tidyverse)
 library(lubridate)
 
 
-
-
 #################  GREAT MEADOW  #################
 
 #------------------------------------------------#
@@ -17,13 +15,13 @@ library(lubridate)
 #------------------------------------------------#
 
 ## Read in the raw sheet from the data file
-raw1 <- readxl::read_excel("data/raw_data/GREAT MEADOW Full Data & New Graphs Nov-2022.xlsx", sheet = "Full Data to MAY 2022")
+raw1 <- readxl::read_excel("data/raw_data/hydrology_data/GREAT MEADOW Full Data & New Graphs Nov-2022.xlsx", sheet = "Full Data to MAY 2022")
 
 
-raw <- readxl::read_excel("data/raw_data/Precipitation data (GREAT MEADOW Full Data & New Graphs 2023 October).xlsx", sheet = "Full Data to OCT 2023")
+raw <- readxl::read_excel("data/raw_data/hydrology_data/Precipitation data (GREAT MEADOW Full Data & New Graphs 2023 October).xlsx", sheet = "Full Data to OCT 2023")
 
 
-raw2 <- readxl::read_excel("data/raw_data/GREAT MEADOW Full Data & New Graphs 2024 May.xlsx", sheet = "Full Data to May 2024")
+raw2 <- readxl::read_excel("data/raw_data/hydrology_data/GREAT MEADOW Full Data & New Graphs 2024 May.xlsx", sheet = "Full Data to May 2024")
 
 
 ## Pair down the clutter and fix timestamps
@@ -217,8 +215,15 @@ day.precip <- slim %>%
 ## Join this to our combined data
 clean <- combined %>% 
   left_join(., day.precip, by = "date") %>% 
-  mutate(water.depth = cor.logger.depth*100) %>% 
-  select(1:6, 16, 8:15, 17)
+  mutate(water.depth = cor.logger.depth*100,
+         doy = yday(date),
+         hr = hour(timestamp),
+         hr = as.character(hr),
+         hr = ifelse(nchar(hr) < 2, paste0("0", hr), hr),
+         doy_h = paste0(doy, ".", hr),
+         lag.precip = lag(precip.cm),
+         lag.precip = ifelse(is.na(lag.precip), 0, lag.precip)) %>% 
+  select(1:6, 21, 16, 17, 8:15, 18:20)
 
 
 ## Write out the clean data
@@ -229,7 +234,9 @@ clean <- combined %>%
 # write.csv(clean, "data/processed_data/great_meadow_well_data_2023_20250513.csv", row.names = F)
 
 ## Write out the clean data
-# write.csv(clean, "data/processed_data/great_meadow_well_data_2024_20250514.csv", row.names = F)
+# write.csv(clean, "data/processed_data/great_meadow_well_data_2024_20250520.csv", row.names = F)
+
+
 
 ################  GILMORE MEADOW  ################
 
