@@ -22,7 +22,7 @@ species_by_strata_2015 <- read.csv("data/raw_data/Glen_veg_data/old_raw_veg_data
 species_list_2015 <- read.csv("data/raw_data/Glen_veg_data/old_raw_veg_data/species_list_2015_2023.csv") %>%
   as_tibble()
 
-tlu_Plant <- read.csv("data/raw_data/Glen_veg_data/old_raw_veg_data/tlu_Plant.csv") %>%
+tlu_Plant <- read.csv("data/raw_data/Glen_veg_data/tlu_Plant.csv") %>%
   as_tibble()
 
 locations_2015_2023 <- read.csv("data/raw_data/Glen_veg_data/old_raw_veg_data/locations_2015_2023.csv") %>%
